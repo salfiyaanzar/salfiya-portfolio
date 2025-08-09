@@ -1,7 +1,7 @@
 export default function LittleMiss() {
     return(
         <div>
-        <svg className="max-w-md fill-neutral-800 dark:fill-neutral-200"  viewBox="0 0 368 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="max-w-md pb-1 fill-neutral-800 dark:fill-neutral-200"  viewBox="0 0 368 114" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.812855 44.9996V1.36319H12.6594V35.4541H30.3015V44.9996H0.812855Z" />
 <path d="M46.9368 1.36319V44.9996H35.0902V1.36319H46.9368Z"/>
 <path d="M51.358 10.9086V1.36319H89.2841V10.9086H76.1591V44.9996H64.483V10.9086H51.358Z"/>
