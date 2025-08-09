@@ -1,9 +1,14 @@
 @import 'tailwindcss';
 
 ::selection {
-  background-color: #47a3f3;
+  background-color: #8a8a8a;
   color: #fefefe;
 }
+
+html {
+  @apply bg-white dark:bg-black;
+}
+
 
 :root {
   --sh-class: #2d5e9d;
