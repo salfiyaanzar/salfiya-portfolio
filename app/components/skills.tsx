@@ -64,7 +64,7 @@ export default function SkillsCompact() {
 
   return (
     <section className="">
-      <div className="grid grid-cols-3 gap-1 lg:gap-3 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-3 border border-dashed border-neutral-300 text-neutral-700 p-4 dark:border-neutral-700 gap-1 lg:gap-3 md:grid-cols-2 lg:grid-cols-3">
         <LabeledList title="I KNOW THIS" items={knowThis} />
         <LabeledList title="I USE THIS" items={useThis} />
         <LabeledList title="WITH THIS" items={withThis} />
@@ -80,7 +80,7 @@ export default function SkillsCompact() {
           </ul>
         </DashedCard>
 
-        <DashedCard title="🛠️ Tools I Love">
+        <DashedCard title="Tools I Love">
           <div className="grid grid-cols-3 gap-3">
             {toolTiles.map(({ name, Icon }) => (
               <div
