@@ -1,10 +1,8 @@
 import React from 'react'
 
-export default function VercelIcon(props: React.SVGProps<SVGSVGElement>) {
+export default function Vercel(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg viewBox="0 0 24 24" width={22} height={22} aria-hidden {...props}>
-      <path d="M12 3 22 21H2L12 3Z" fill="currentColor" />
-    </svg>
+<svg className='fill-black dark:fill-white w-7 h-7' viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><title>Vercel icon</title><path d="M24 22.525H0l12-21.05 12 21.05z"/></svg>
   )
 }
 

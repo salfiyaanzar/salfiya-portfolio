@@ -1,6 +1,7 @@
 import { BlogPosts } from 'app/components/posts'
 import LittleMiss from "app/components/svgs/littleMiss"
 import Image from 'next/image'
+import SkillsCompact from './components/skills'
 
 export default function Page() {
   return (
@@ -25,6 +26,10 @@ export default function Page() {
         early error detection ensures cleaner code, and my preference for dark
         mode, which eases long coding sessions by reducing eye strain.
         </p>
+
+        <SkillsCompact />
+
+
       <div className='grid grid-cols-3 gap-2 max-w-xl py-7 select-none'>
         <Image src="/sushi.webp" draggable="false" width="400" height="400" alt='Salfiya' className='border p-2 bg-neutral-50 dark:border-neutral-700 hover:dark:border-neutral-600 dark:bg-[#121212] hover:dark:bg-[#121212] border-neutral-300 hover:border-neutral-400 border hover:scale-110 hover:bg-neutral-100 duration-200 hover:rotate-6' />
         <Image src="/beanie.webp" draggable="false" width="400" height="300" alt='beanie by salfiya' className='border p-2 dark:border-neutral-700 hover:dark:border-neutral-600 dark:bg-[#121212] hover:dark:bg-[#121212] bg-neutral-50 border-neutral-300 hover:border-neutral-400 border hover:scale-110 hover:bg-neutral-100 duration-200 hover:rotate-6' />
@@ -33,7 +38,6 @@ export default function Page() {
       {/* <div className="my-14">
         <BlogPosts />
       </div> */}
-      
       <div className='max-w-[170px] border bg-neutral-50 dark:bg-neutral-950 dark:border-neutral-700 border-neutral-300 p-3'>
       <LittleMiss />
       </div>
