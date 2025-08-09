@@ -25,14 +25,15 @@ export default function Page() {
         early error detection ensures cleaner code, and my preference for dark
         mode, which eases long coding sessions by reducing eye strain.
         </p>
-      <div className='grid grid-cols-3 gap-2 max-w-xl my-4 select-none'>
+      <div className='grid grid-cols-3 gap-2 max-w-xl py-7 select-none'>
         <Image src="/sushi.webp" draggable="false" width="400" height="400" alt='Salfiya' className='border p-2 bg-neutral-50 dark:border-neutral-700 hover:dark:border-neutral-600 dark:bg-[#121212] hover:dark:bg-[#121212] border-neutral-300 hover:border-neutral-400 border hover:scale-110 hover:bg-neutral-100 duration-200 hover:rotate-6' />
         <Image src="/beanie.webp" draggable="false" width="400" height="300" alt='beanie by salfiya' className='border p-2 dark:border-neutral-700 hover:dark:border-neutral-600 dark:bg-[#121212] hover:dark:bg-[#121212] bg-neutral-50 border-neutral-300 hover:border-neutral-400 border hover:scale-110 hover:bg-neutral-100 duration-200 hover:rotate-6' />
         <Image src="/glove.webp" draggable="false" width="400" height="300" alt='glove by salfiya' className='border p-2 dark:border-neutral-700 hover:dark:border-neutral-600 dark:bg-[#121212] bg-neutral-50 hover:dark:bg-[#121212] border-neutral-300 border hover:border-neutral-400 hover:bg-neutral-100 hover:scale-110 duration-200 hover:rotate-6' />
       </div>
-      <div className="my-8">
+      {/* <div className="my-14">
         <BlogPosts />
-      </div>
+      </div> */}
+      
       <div className='max-w-[170px] border bg-neutral-50 dark:bg-neutral-950 dark:border-neutral-700 border-neutral-300 p-3'>
       <LittleMiss />
       </div>
