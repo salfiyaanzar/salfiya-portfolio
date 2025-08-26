@@ -47,10 +47,10 @@ export default function SkillsCompact() {
   const withThis = ['VS Code', 'Git', 'AWS', 'Docker', 'MySQL', 'MongoDB', 'Firebase']
 
   const greatestList = [
-    '🎥 The Inglorious B*stards',
-    '📁 Crime & Punishment',
-    '🥊 Dimitri Bivol',
-    '🎤 Abel Tesfaye',
+    '🎥 Cowboy Bebop ',
+    '🎧 Beadadoobee',
+    '📚 The Secret History',
+    '🧶 Crocheting',
   ]
 
   const toolTiles: { name: string; Icon: React.ComponentType<React.SVGProps<SVGSVGElement>> }[] = [
